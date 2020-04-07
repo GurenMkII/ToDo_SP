@@ -5,7 +5,7 @@ $('#todoinput').keyup(function(){ //executes function when key is released.
     });
 
 $('#todobutton').click(function(){ //function is executed when #todobutton is clicked.
-  $('#list').append('<li>' + $('#todoinput').val() + '</li>'); //creates and populate a new <li> element.
+  $('#list').append('<li>' + $('#todoinput').val() + '</li>'); //creates and populates a new <li> element.
   $('#todoinput').val("");    //clears the form input when #todobutton is clicked.
 })
 
